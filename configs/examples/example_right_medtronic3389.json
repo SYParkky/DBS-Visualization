@@ -26,30 +26,30 @@
       "Contacts": [
         {
           "Contact_ID": 1,
-          "Active": True,
+          "Active": true,
           "Current[A]": 0.0,
           "Voltage[V]": -1.5,
-          "Floating": False},
+          "Floating": false},
         {
           "Contact_ID": 2,
-          "Active": True,
+          "Active": true,
           "Current[A]": 0.0,
           "Voltage[V]": -1.5,
-          "Floating": False
+          "Floating": false
         },
                {
           "Contact_ID": 3,
-          "Active": True,
+          "Active": true,
           "Current[A]": 0.0,
           "Voltage[V]": 3.0,
-          "Floating": False
+          "Floating": false
         },
                {
           "Contact_ID": 4,
-          "Active": False,
+          "Active": false,
           "Current[A]": 0.0,
           "Voltage[V]": 0.0,
-          "Floating": True
+          "Floating": true
         }
       ],
       "EncapsulationLayer": {
@@ -69,27 +69,27 @@
       "Blood": 4,
       "Unknown": 0
     },
-    "DiffusionTensorActive": False,
+    "DiffusionTensorActive": false,
     "DTIPath": ""
   },
   "DielectricModel": {
     "Type": "ColeCole4"
   },
   "StimulationSignal": {
-    "CurrentControlled": False,
+    "CurrentControlled": false,
     "Type": "Multisine",
     "ListOfFrequencies": [
       10000.0
     ]
   },
   "Mesh": {
-   "LoadMesh": False,
+   "LoadMesh": false,
         "MeshElementOrder": 2,
         "MeshingHypothesis": {"Type": "Default", "MaxMeshSize": 12.0},
         "MeshSize": {"Edges": {}, "Faces": {}, "Volumes": {}},
-        "SaveMesh": False,
+        "SaveMesh": false,
         "AdaptiveMeshRefinement": {
-            "Active": True,
+            "Active": true,
             "MaxIterations": 5,
             "ErrorTolerance": 0.5
         },
@@ -103,12 +103,12 @@
   },
   "PointModel": {
     "Pathway": {
-      "Active": False,
+      "Active": false,
       "FileName": "",
-      "ExportField": False
+      "ExportField": false
     },
     "Lattice": {
-      "Active": True,
+      "Active": true,
       "Center": {"x[mm]": -10.554, "y[mm]": 7.195, "z[mm]": -62.387
       },
       "Shape": {
@@ -122,24 +122,24 @@
         "z[mm]": 1
       },
       "PointDistance[mm]": 0.25,
-      "CollapseVTA": False,
-      "ExportField": True
+      "CollapseVTA": false,
+      "ExportField": true
     },
     "VoxelLattice": {
-      "Active": False,
+      "Active": false,
       "Shape": {
         "x": 1,
         "y": 1,
         "z":1
       },
-      "ExportField": True
+      "ExportField": true
     }
   },
   "ActivationThresholdVTA[V-per-m]": 200.0,
-  "EQSMode": False,
+  "EQSMode": false,
   "FEMOrder": 2,
   "OutputPath": "Results_VTA_R",
-  "ComputeImpedance": False,
-  "ExportVTK": True,
-  "ExportElectrode": True,
-  "OutOfCore": False
+  "ComputeImpedance": false,
+  "ExportVTK": true,
+  "ExportElectrode": true,
+  "OutOfCore": false
