@@ -23,5 +23,5 @@ This pipeline integrates:
   [MRtrix3](https://www.mrtrix.org/)
 
 ---
-- 📄 Detailed pipeline & setup: docs/pipeline.md
+- 📄 Detailed pipeline & setup: docs/pipeline.md, docs/Tractography.md
 - ⚙️ Stimulation configuration examples: docs/stimulation_configs.md
