@@ -1,1 +1,145 @@
-
+"BrainRegion": {
+    "Center": {"x[mm]": 12.248, "y[mm]": -13.583, "z[mm]": -9.719
+    },
+    "Dimension": {
+      "x[mm]": 160.0,
+      "y[mm]": 160.0,
+      "z[mm]": 160.0
+    },
+    "Shape": "Ellipsoid"
+  },
+  "Electrodes": [
+    {
+      "Name": "Medtronic3389",
+      "CustomParameters": {
+                "tip_length": 1.5,
+                "contact_length": 1.5,
+                "contact_spacing": 0.5,
+                "lead_diameter": 1.27,
+                "total_length":  400.0,
+            },
+      "Rotation[Degrees]": 0,
+      "Direction": {"x[mm]": 0.273, "y[mm]": 0.604, "z[mm]": 0.749
+      },
+      "TipPosition": {"x[mm]": 12.248, "y[mm]": -13.583, "z[mm]": -9.719
+      },
+      "Contacts": [
+        {
+          "Contact_ID": 1,
+          "Active": True,
+          "Current[A]": 0.0,
+          "Voltage[V]": -1.5,
+          "Floating": False},
+        {
+          "Contact_ID": 2,
+          "Active": True,
+          "Current[A]": 0.0,
+          "Voltage[V]": -1.5,
+          "Floating": False
+        },
+               {
+          "Contact_ID": 3,
+          "Active": True,
+          "Current[A]": 0.0,
+          "Voltage[V]": 3.0,
+          "Floating": False
+        },
+               {
+          "Contact_ID": 4,
+          "Active": False,
+          "Current[A]": 0.0,
+          "Voltage[V]": 0.0,
+          "Floating": True
+        }
+      ],
+      "EncapsulationLayer": {
+        "Thickness[mm]": 0.0,
+        "Material": "Blood",
+        "DielectricModel": "ColeCole4",
+        "MaxMeshSize": 0.1
+      }
+    }
+  ],
+  "MaterialDistribution": {
+    "MRIPath": "",
+    "MRIMapping": {
+      "Gray matter": 1,
+      "White matter": 2,
+      "CSF": 3,
+      "Blood": 4,
+      "Unknown": 0
+    },
+    "DiffusionTensorActive": False,
+    "DTIPath": ""
+  },
+  "DielectricModel": {
+    "Type": "ColeCole4"
+  },
+  "StimulationSignal": {
+    "CurrentControlled": False,
+    "Type": "Multisine",
+    "ListOfFrequencies": [
+      10000.0
+    ]
+  },
+  "Mesh": {
+   "LoadMesh": False,
+        "MeshElementOrder": 2,
+        "MeshingHypothesis": {"Type": "Default", "MaxMeshSize": 12.0},
+        "MeshSize": {"Edges": {}, "Faces": {}, "Volumes": {}},
+        "SaveMesh": False,
+        "AdaptiveMeshRefinement": {
+            "Active": True,
+            "MaxIterations": 5,
+            "ErrorTolerance": 0.5
+        },
+  },
+  "Solver": {
+    "Type": "CG",
+        "Preconditioner": "local",
+        "PreconditionerKwargs": {},
+        "MaximumSteps": 5000,
+        "Precision": 1e-10,
+  },
+  "PointModel": {
+    "Pathway": {
+      "Active": False,
+      "FileName": "",
+      "ExportField": False
+    },
+    "Lattice": {
+      "Active": True,
+      "Center": {"x[mm]": -10.554, "y[mm]": 7.195, "z[mm]": -62.387
+      },
+      "Shape": {
+        "x": 200,
+        "y": 200,
+        "z": 200
+      },
+      "Direction": {
+        "x[mm]": 0,
+        "y[mm]": 0,
+        "z[mm]": 1
+      },
+      "PointDistance[mm]": 0.25,
+      "CollapseVTA": False,
+      "ExportField": True
+    },
+    "VoxelLattice": {
+      "Active": False,
+      "Shape": {
+        "x": 1,
+        "y": 1,
+        "z":1
+      },
+      "ExportField": True
+    }
+  },
+  "ActivationThresholdVTA[V-per-m]": 200.0,
+  "EQSMode": False,
+  "FEMOrder": 2,
+  "OutputPath": "Results_VTA_R",
+  "ComputeImpedance": False,
+  "ExportVTK": True,
+  "ExportElectrode": True,
+  "OutOfCore": False
