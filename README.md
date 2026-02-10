@@ -23,6 +23,6 @@ This pipeline integrates:
   [MRtrix3](https://www.mrtrix.org/)
 
 ---
-- 📄 Detailed pipeline & setup: [Pipeline](docs/pipeline.md), [Tractography](docs/Tractography.md)  
-- ⚙️ Stimulation configuration examples: [Stimulation Configs](docs/stimulation_configs.md)
+### 📄 Detailed pipeline & setup: [Pipeline](docs/pipeline.md), [Tractography](docs/Tractography.md)  
+### ⚙️ Stimulation configuration examples: [Stimulation Configs](docs/stimulation_configs.md)
 
