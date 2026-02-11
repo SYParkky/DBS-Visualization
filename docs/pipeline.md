@@ -33,7 +33,7 @@ This pipeline relies on the following external software packages:
     - Tutorial on segmentation: https://www.youtube.com/watch?v=ZRYMItzwg8g
     - Export electrode segmentation to a model(.vtk) inside segmentation module  
    
-    <img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/2017da24-c80d-446d-bd83-027a47336a0a" />
+    <img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/2017da24-c80d-446d-bd83-027a47336a0a" />
 
     
 4. **Create a Markups point list** for each electrode.
@@ -42,7 +42,7 @@ This pipeline relies on the following external software packages:
     - Point on middle of shaft = for **Direction**
     - Point for the end of the electrode (Opposite of tip)
     
-    <img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/4b07f318-437f-4090-ad50-5dfb02fd1ca7" />
+    <img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/4b07f318-437f-4090-ad50-5dfb02fd1ca7" />
 
     
 
@@ -69,7 +69,7 @@ This pipeline relies on the following external software packages:
     
     Resulting mask should look like this in Slicer:
     
-    <img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/051b361f-3c06-467b-ad07-6bc853c7e177" />
+    <img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/051b361f-3c06-467b-ad07-6bc853c7e177" />
 
     
 
@@ -104,10 +104,11 @@ This pipeline relies on the following external software packages:
     - If you correctly created the models with the right coordinates, the electrodes should be almost registered when you load them in
     - Slight alterations should be made to ensure correct registration
         
-     <img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/5dc6a218-55cf-4f24-afea-0d4643f52231" />
+<img width="800" height="570" alt="Potential Example" src="https://github.com/user-attachments/assets/913fe599-9316-43eb-af5b-e67b6dfa7447" />
 
         
 3. VTA can also be visualized using Point model analysis(Lattice = true), if needed
 
-     <img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/69e6118d-1a3a-4faf-b873-fd7a59db92e8" />
+ <img width="800" height="570" alt="VTA example" src="https://github.com/user-attachments/assets/db6313b5-d54c-4274-841f-c86ac424ffce" />
+
 
