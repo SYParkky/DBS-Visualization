@@ -34,7 +34,7 @@ To enable anatomically informed tract selection:
 - Large-scale anatomical masks were generated from **T1-weighted MRI** using FastSurfer.
 - These masks were used to filter tractography results via MRtrix.
 
-<img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/d30fa2a4-4322-44f4-9b7a-6222ae3bf323" />
+<img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/d30fa2a4-4322-44f4-9b7a-6222ae3bf323" />
 
 
 ### Notes on Mask Resolution
@@ -50,4 +50,4 @@ To enable anatomically informed tract selection:
 An example of tractography filtered using a pallidum mask is shown below:
 
 
-<img width="600" height="370" alt="image" src="https://github.com/user-attachments/assets/6af6a549-7ccc-47a4-9dc4-b9bc8f366fdd" />
+<img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/6af6a549-7ccc-47a4-9dc4-b9bc8f366fdd" />
