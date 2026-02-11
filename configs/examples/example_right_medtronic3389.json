@@ -1,5 +1,5 @@
 "BrainRegion": {
-    "Center": {"x[mm]": 12.248, "y[mm]": -13.583, "z[mm]": -9.719
+    "Center": {"x[mm]":  -10.783, "y[mm]": 8.514, "z[mm]": -62.291
     },
     "Dimension": {
       "x[mm]": 160.0,
@@ -19,9 +19,9 @@
                 "total_length":  400.0,
             },
       "Rotation[Degrees]": 0,
-      "Direction": {"x[mm]": 0.273, "y[mm]": 0.604, "z[mm]": 0.749
+      "Direction": {"x[mm]": -0.340, "y[mm]": 0.598, "z[mm]": 0.726
       },
-      "TipPosition": {"x[mm]": 12.248, "y[mm]": -13.583, "z[mm]": -9.719
+      "TipPosition": {"x[mm]":  -10.783, "y[mm]": 8.514, "z[mm]": -62.291
       },
       "Contacts": [
         {
@@ -109,12 +109,12 @@
     },
     "Lattice": {
       "Active": true,
-      "Center": {"x[mm]": -10.554, "y[mm]": 7.195, "z[mm]": -62.387
+      "Center": {"x[mm]":  -10.783, "y[mm]": 8.514, "z[mm]": -62.291
       },
       "Shape": {
-        "x": 200,
-        "y": 200,
-        "z": 200
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Direction": {
         "x[mm]": 0,
